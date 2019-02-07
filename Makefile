@@ -1,9 +1,9 @@
 CXX = g++
 CXXFLAGS = -Wall -g
 
-test: test.o
+test: bin/test.o
 	$(CXX) $(CXXFLAGS) -o $@ $^
 
-test.o: test.cpp 
-	$(CXX) $(CXXFLAGS) -o $@ -c $<
+bin/test.o: bin/test.o 
+	$(CXX) $(CXXFLAGS) -o $@ -c src/test.cpp
 
