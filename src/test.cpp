@@ -1,15 +1,15 @@
 //This is a test
-/*#include <iostream>
+#include <iostream>
 #include "../include/test.h"
 
 int main() {
     int i = N;
     std::cout << N;
     return 0;
-}*/
+}
+/*
 #include <qapplication.h>
 #include <qpushbutton.h>
-
 
 int main( int argc, char **argv )
 {
@@ -22,4 +22,4 @@ int main( int argc, char **argv )
     hello.show();
     return a.exec();
 }
-
+*/
